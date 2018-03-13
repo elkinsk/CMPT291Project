@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace CMPT291Project
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
+        }
+
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateAccountLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
